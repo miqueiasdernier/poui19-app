@@ -1,0 +1,22 @@
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+
+  &__item {
+    display: flex;
+    gap: 5px;
+  }
+
+  &__label {
+    font-weight: bold;
+  }
+
+  &__value {
+    color: #333;
+  }
+}
